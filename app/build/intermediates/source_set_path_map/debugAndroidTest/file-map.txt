@@ -1,0 +1,6 @@
+com.example.dualaudio.test.app-jetified-annotation-experimental-1.3.0-0 /home/gaurav/.gradle/caches/9.0-milestone-1/transforms/1b0b886071b5b3b69578df4262681aaa/transformed/jetified-annotation-experimental-1.3.0/res
+com.example.dualaudio.test.app-jetified-core-1.5.0-1 /home/gaurav/.gradle/caches/9.0-milestone-1/transforms/7855d69229751c0414d3c358e840cd53/transformed/jetified-core-1.5.0/res
+com.example.dualaudio.test.app-androidTest-2 /home/gaurav/Desktop/MUSIC-PLAYER/app/build/generated/res/resValues/androidTest/debug
+com.example.dualaudio.test.app-mergeDebugAndroidTestResources-3 /home/gaurav/Desktop/MUSIC-PLAYER/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.dualaudio.test.app-mergeDebugAndroidTestResources-4 /home/gaurav/Desktop/MUSIC-PLAYER/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.dualaudio.test.app-merged_res-5 /home/gaurav/Desktop/MUSIC-PLAYER/app/build/intermediates/merged_res/debugAndroidTest

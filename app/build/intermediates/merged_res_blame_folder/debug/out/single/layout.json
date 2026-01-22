@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-mergeDebugResources-32:/layout/layout_dialog_folder_picker.xml",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/layout_dialog_folder_picker.xml"
+    },
+    {
+        "merged": "com.example.dualaudio.app-mergeDebugResources-32:/layout/layout_mini_player.xml",
+        "source": "com.example.dualaudio.app-main-35:/layout/layout_mini_player.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-mergeDebugResources-32:/layout/layout_player.xml",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/layout_player.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-mergeDebugResources-32:/layout/item_song.xml",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/item_song.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-mergeDebugResources-32:/layout/layout_mini_player.xml",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/layout_mini_player.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-mergeDebugResources-32:/layout/layout_dialog_source_switch.xml",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/layout_dialog_source_switch.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-mergeDebugResources-32:/layout/item_folder.xml",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/item_folder.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-mergeDebugResources-32:/layout/layout_dialog_playlist.xml",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/layout_dialog_playlist.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-mergeDebugResources-32:/layout/layout_library.xml",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/layout_library.xml"
+    }
+]

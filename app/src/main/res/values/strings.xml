@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VibeSplit</string>
+    <string name="select_song_a">Select Song A (Left)</string>
+    <string name="select_song_b">Select Song B (Right)</string>
+    <string name="mode_split">Split Mode</string>
+    <string name="mode_same">Same Music</string>
+    <string name="swap">Swap Audio</string>
+    <string name="permission_rationale">This app needs permission to access your audio files and play audio in the background.</string>
+</resources>

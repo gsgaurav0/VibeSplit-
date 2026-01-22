@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_glass_gradient"
+    android:padding="24dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+        
+        <TextView
+            android:id="@+id/tvDialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Folder"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+            
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_glass_card"
+            android:padding="8dp">
+            
+            <ImageView
+                android:id="@+id/btnNavUp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_back"
+                app:tint="@color/white"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginEnd="8dp"/>
+                
+            <TextView
+                android:id="@+id/tvCurrentPath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="/storage/emulated/0"
+                android:textColor="@color/glass_text_secondary"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:ellipsize="start"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Folder List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFolderList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_glass_card"
+        android:padding="4dp"/>
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+        
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCancelPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_marginEnd="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSelectFolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select This Folder"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/spotify_green"
+            app:cornerRadius="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

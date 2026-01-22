@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_progress_gradient_orange.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/progress_gradient_orange.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ic_add.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/layout_activity_main.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_bg_gradient.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/bg_gradient.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_bg_glass_card.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/bg_glass_card.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/layout_layout_dialog_source_switch.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/layout_dialog_source_switch.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/layout_layout_library.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/layout_library.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_bg_glass_gradient.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/bg_glass_gradient.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ic_album_placeholder.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ic_album_placeholder.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_progress_gradient_blue.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/progress_gradient_blue.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ic_close.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ic_shuffle.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ic_shuffle.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ring_progress_orange.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ring_progress_orange.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/xml_backup_rules.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ic_sort.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ic_sort.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/layout_layout_player.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/layout_player.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ic_back.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ic_search.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ic_heart.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ic_heart.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/anim_dialog_enter.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/anim/dialog_enter.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/anim_slide_down.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/anim/slide_down.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ic_split_mode.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ic_split_mode.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ring_progress_blue.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ring_progress_blue.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ic_headset_left.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ic_headset_left.xml"
+    },
+    {
+        "merged": "com.example.dualaudio.app-merged_res-33:/drawable_ic_vibesplit.png.flat",
+        "source": "com.example.dualaudio.app-main-35:/drawable/ic_vibesplit.png"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/layout_item_folder.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/item_folder.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ic_music_note.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ic_music_note.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ic_repeat.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ic_repeat.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_thumb_volume_blue.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/thumb_volume_blue.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/layout_layout_dialog_folder_picker.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/layout_dialog_folder_picker.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_thumb_volume_orange.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/thumb_volume_orange.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/layout_layout_mini_player.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/layout_mini_player.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ic_playlist_music.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ic_playlist_music.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_bg_vinyl.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/bg_vinyl.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/layout_layout_dialog_playlist.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/layout_dialog_playlist.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/anim_dialog_exit.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/anim/dialog_exit.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ic_headset_right.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ic_headset_right.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/anim_slide_up.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/anim/slide_up.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_bg_volume_track.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/bg_volume_track.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/layout_item_song.xml.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/item_song.xml"
+    },
+    {
+        "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ic_vibesplit.png.flat",
+        "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ic_vibesplit.png"
+    }
+]

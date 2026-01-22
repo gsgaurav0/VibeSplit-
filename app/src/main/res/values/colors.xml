@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="spotify_green">#1DB954</color>
+    <color name="spotify_black">#191414</color>
+    <color name="spotify_dark_grey">#535353</color>
+    <color name="spotify_light_grey">#B3B3B3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="background_gradient_start">#1A1A1A</color> <!-- Dark Gray -->
+    <color name="background_gradient_end">#121212</color>   <!-- Near Black -->
+    
+    <!-- Glassmorphism Palette -->
+    <color name="glass_purple_primary">#6200EA</color>
+    <color name="glass_purple_accent">#B388FF</color>
+    <color name="glass_purple_secondary">#BB86FC</color>
+    <color name="glass_background_start">#1A1A1A</color>
+    <color name="glass_background_end">#050505</color>
+    <color name="glass_text_primary">#FFFFFF</color>
+    <color name="glass_text_secondary">#B0B0B0</color>
+</resources>

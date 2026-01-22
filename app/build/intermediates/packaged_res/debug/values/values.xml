@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_gradient_end">#121212</color>
+    <color name="background_gradient_start">#1A1A1A</color>
+    <color name="black">#000000</color>
+    <color name="glass_background_end">#050505</color>
+    <color name="glass_background_start">#1A1A1A</color>
+    <color name="glass_purple_accent">#B388FF</color>
+    <color name="glass_purple_primary">#6200EA</color>
+    <color name="glass_purple_secondary">#BB86FC</color>
+    <color name="glass_text_primary">#FFFFFF</color>
+    <color name="glass_text_secondary">#B0B0B0</color>
+    <color name="spotify_black">#191414</color>
+    <color name="spotify_dark_grey">#535353</color>
+    <color name="spotify_green">#1DB954</color>
+    <color name="spotify_light_grey">#B3B3B3</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">VibeSplit</string>
+    <string name="mode_same">Same Music</string>
+    <string name="mode_split">Split Mode</string>
+    <string name="permission_rationale">This app needs permission to access your audio files and play audio in the background.</string>
+    <string name="select_song_a">Select Song A (Left)</string>
+    <string name="select_song_b">Select Song B (Right)</string>
+    <string name="swap">Swap Audio</string>
+    <style name="PlaylistDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+    <style name="Theme.DualAudioPlayer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/spotify_green</item>
+        <item name="colorPrimaryVariant">@color/background_gradient_start</item>
+        <item name="colorOnPrimary">@color/black</item>
+        
+        <item name="colorSecondary">@color/spotify_green</item>
+        <item name="colorSecondaryVariant">@color/spotify_dark_grey</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:statusBarColor">@color/background_gradient_end</item>
+        
+    </style>
+</resources>
