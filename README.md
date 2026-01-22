@@ -47,7 +47,7 @@ One earbud plays your vibe, the other plays theirs. No more fighting over the au
 ### Steps
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/VibeSplit.git
+   git clone https://github.com/gsgaurav0/VibeSplit-.git
    ```
 2. **Open in Android Studio**
    - Point to the root directory.

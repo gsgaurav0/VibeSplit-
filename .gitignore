@@ -16,7 +16,6 @@ local.properties
 .idea
 build/
 app/build/
-*.apk
 *.ap_
 *.dex
 *.class
