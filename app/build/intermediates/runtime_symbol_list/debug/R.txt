@@ -3669,12 +3669,16 @@ int id tvCurrentPath 0x7f080222
 int id tvDialogTitle 0x7f080223
 int id tvDuration 0x7f080224
 int id tvFolderName 0x7f080225
+int id tvLabelSourceA 0x7f08024a
+int id tvLabelSourceB 0x7f08024b
 int id tvMiniArtist 0x7f080226
 int id tvMiniTitle 0x7f080227
 int id tvPlayerDurationA 0x7f080228
 int id tvPlayerDurationB 0x7f080229
 int id tvPlayerSongA 0x7f08022a
 int id tvPlayerSongB 0x7f08022b
+int id tvPlayerSourceA 0x7f08024c
+int id tvPlayerSourceB 0x7f08024d
 int id tvPlaylistTitle 0x7f08022c
 int id tvSwitchTitle 0x7f08022d
 int id tvTitle 0x7f08022e

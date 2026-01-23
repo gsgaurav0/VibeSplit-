@@ -161,12 +161,28 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun loadSongs() {
-        // MANUAL MODE: Do NOT auto-load all songs from MediaStore.
-        // User wants empty state until "Add Folder" is clicked.
-        // Keeping this method signature empty or just updating UI to empty state.
         allSongs = emptyList()
         if (::songAdapter.isInitialized) {
             songAdapter.submitList(allSongs)
+        }
+        
+        // Auto-load last folder
+        val prefs = getSharedPreferences("VibeSplitPrefs", Context.MODE_PRIVATE)
+        val lastPath = prefs.getString("last_folder_path", null)
+        if (lastPath != null) {
+            val dir = java.io.File(lastPath)
+            if (dir.exists() && dir.isDirectory) {
+                // Check permissions first? The URI permission persists, but raw file access depends on MANAGE_EXTERNAL_STORAGE
+                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+                     if (android.os.Environment.isExternalStorageManager()) {
+                         loadSongsFromRawFolder(dir)
+                     }
+                 } else {
+                     if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+                         loadSongsFromRawFolder(dir)
+                     }
+                 }
+            }
         }
     }
 
@@ -320,6 +336,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun loadSongsFromRawFolder(dir: java.io.File) {
+         // Save path for next launch
+         val prefs = getSharedPreferences("VibeSplitPrefs", Context.MODE_PRIVATE)
+         prefs.edit().putString("last_folder_path", dir.absolutePath).apply()
+
          CoroutineScope(Dispatchers.IO).launch {
              val newSongs = mutableListOf<Song>()
              fun scan(d: java.io.File) {
@@ -341,11 +361,14 @@ class MainActivity : AppCompatActivity() {
              withContext(Dispatchers.Main) {
                  val currentList = allSongs.toMutableList()
                  currentList.addAll(newSongs)
-                 allSongs = currentList
+                 // Remove duplicates based on ID
+                 allSongs = currentList.distinctBy { it.id }
                  if (::songAdapter.isInitialized) {
                     songAdapter.submitList(allSongs)
                  }
-                 Toast.makeText(this@MainActivity, "Added ${newSongs.size} songs", Toast.LENGTH_SHORT).show()
+                 if (newSongs.isNotEmpty()) {
+                    Toast.makeText(this@MainActivity, "Added ${newSongs.size} songs", Toast.LENGTH_SHORT).show()
+                 }
              }
          }
     }
@@ -885,22 +908,55 @@ class MainActivity : AppCompatActivity() {
         val btnSourceB = dialogView.findViewById<View>(R.id.btnSourceB)
         val btnClose = dialogView.findViewById<View>(R.id.btnCloseSwitch)
         
+        // Simple approach: Logic switch
+        val isSwapped = audioService?.isSwapped() == true
+        
+        btnSourceA.setOnClickListener {
+            // "Left Earbud Music" clicked
+            if (isSwapped) handleSourceSwitch(1) else handleSourceSwitch(0)
+            (dialogView.parent as? android.view.ViewGroup)?.removeView(dialogView) // Cleanup if needed, but we used Builder
+        }
+        
+        btnSourceB.setOnClickListener {
+             // "Right Earbud Music" clicked
+             if (isSwapped) handleSourceSwitch(0) else handleSourceSwitch(1)
+             (dialogView.parent as? android.view.ViewGroup)?.removeView(dialogView)
+        }
+        
         val dialog = AlertDialog.Builder(this)
             .setView(dialogView)
             .create()
             
+        // Overwrite listener to dismiss dialog correctly
         btnSourceA.setOnClickListener {
-            handleSourceSwitch(0)
+            if (isSwapped) handleSourceSwitch(1) else handleSourceSwitch(0)
             dialog.dismiss()
         }
         
         btnSourceB.setOnClickListener {
-            handleSourceSwitch(1)
-            dialog.dismiss()
+             if (isSwapped) handleSourceSwitch(0) else handleSourceSwitch(1)
+             dialog.dismiss()
         }
         
         btnClose.setOnClickListener {
             dialog.dismiss()
+        }
+        
+        // UPDATE TEXT to be accurate
+        if (isSwapped) {
+             // Use IDs we just added to layout_dialog_source_switch.xml
+             val tvPlayerSourceA = dialogView.findViewById<TextView>(R.id.tvPlayerSourceA)
+             val tvPlayerSourceB = dialogView.findViewById<TextView>(R.id.tvPlayerSourceB)
+             
+             if (tvPlayerSourceA != null && tvPlayerSourceB != null) {
+                 // Left Ear Card (Source A usually) -> Now playing Source B
+                 tvPlayerSourceA.text = "Player B"
+                 tvPlayerSourceA.setTextColor(android.graphics.Color.parseColor("#FF9100")) // Orange
+                 
+                 // Right Ear Card (Source B usually) -> Now playing Source A
+                 tvPlayerSourceB.text = "Player A"
+                 tvPlayerSourceB.setTextColor(android.graphics.Color.parseColor("#00E5FF")) // Blue
+             }
         }
         
         dialog.window?.setBackgroundDrawableResource(android.R.color.transparent)

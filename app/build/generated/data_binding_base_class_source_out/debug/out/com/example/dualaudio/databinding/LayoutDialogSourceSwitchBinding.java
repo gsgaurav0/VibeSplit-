@@ -38,18 +38,36 @@ public final class LayoutDialogSourceSwitchBinding implements ViewBinding {
   public final RadioButton radioSourceB;
 
   @NonNull
+  public final TextView tvLabelSourceA;
+
+  @NonNull
+  public final TextView tvLabelSourceB;
+
+  @NonNull
+  public final TextView tvPlayerSourceA;
+
+  @NonNull
+  public final TextView tvPlayerSourceB;
+
+  @NonNull
   public final TextView tvSwitchTitle;
 
   private LayoutDialogSourceSwitchBinding(@NonNull LinearLayout rootView,
       @NonNull ImageButton btnCloseSwitch, @NonNull CardView btnSourceA,
       @NonNull CardView btnSourceB, @NonNull RadioButton radioSourceA,
-      @NonNull RadioButton radioSourceB, @NonNull TextView tvSwitchTitle) {
+      @NonNull RadioButton radioSourceB, @NonNull TextView tvLabelSourceA,
+      @NonNull TextView tvLabelSourceB, @NonNull TextView tvPlayerSourceA,
+      @NonNull TextView tvPlayerSourceB, @NonNull TextView tvSwitchTitle) {
     this.rootView = rootView;
     this.btnCloseSwitch = btnCloseSwitch;
     this.btnSourceA = btnSourceA;
     this.btnSourceB = btnSourceB;
     this.radioSourceA = radioSourceA;
     this.radioSourceB = radioSourceB;
+    this.tvLabelSourceA = tvLabelSourceA;
+    this.tvLabelSourceB = tvLabelSourceB;
+    this.tvPlayerSourceA = tvPlayerSourceA;
+    this.tvPlayerSourceB = tvPlayerSourceB;
     this.tvSwitchTitle = tvSwitchTitle;
   }
 
@@ -110,6 +128,30 @@ public final class LayoutDialogSourceSwitchBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvLabelSourceA;
+      TextView tvLabelSourceA = ViewBindings.findChildViewById(rootView, id);
+      if (tvLabelSourceA == null) {
+        break missingId;
+      }
+
+      id = R.id.tvLabelSourceB;
+      TextView tvLabelSourceB = ViewBindings.findChildViewById(rootView, id);
+      if (tvLabelSourceB == null) {
+        break missingId;
+      }
+
+      id = R.id.tvPlayerSourceA;
+      TextView tvPlayerSourceA = ViewBindings.findChildViewById(rootView, id);
+      if (tvPlayerSourceA == null) {
+        break missingId;
+      }
+
+      id = R.id.tvPlayerSourceB;
+      TextView tvPlayerSourceB = ViewBindings.findChildViewById(rootView, id);
+      if (tvPlayerSourceB == null) {
+        break missingId;
+      }
+
       id = R.id.tvSwitchTitle;
       TextView tvSwitchTitle = ViewBindings.findChildViewById(rootView, id);
       if (tvSwitchTitle == null) {
@@ -117,7 +159,8 @@ public final class LayoutDialogSourceSwitchBinding implements ViewBinding {
       }
 
       return new LayoutDialogSourceSwitchBinding((LinearLayout) rootView, btnCloseSwitch,
-          btnSourceA, btnSourceB, radioSourceA, radioSourceB, tvSwitchTitle);
+          btnSourceA, btnSourceB, radioSourceA, radioSourceB, tvLabelSourceA, tvLabelSourceB,
+          tvPlayerSourceA, tvPlayerSourceB, tvSwitchTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -24,6 +24,10 @@
         "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/layout_dialog_source_switch.xml"
     },
     {
+        "merged": "com.example.dualaudio.app-merged_res-33:/layout_layout_dialog_source_switch.xml.flat",
+        "source": "com.example.dualaudio.app-main-35:/layout/layout_dialog_source_switch.xml"
+    },
+    {
         "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/layout_layout_library.xml.flat",
         "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/layout/layout_library.xml"
     },
@@ -34,10 +38,6 @@
     {
         "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_ic_album_placeholder.xml.flat",
         "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/ic_album_placeholder.xml"
-    },
-    {
-        "merged": "com.example.dualaudio.app-merged_res-33:/xml_backup_rules.xml.flat",
-        "source": "com.example.dualaudio.app-main-35:/xml/backup_rules.xml"
     },
     {
         "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_progress_gradient_blue.xml.flat",
@@ -138,10 +138,6 @@
     {
         "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/drawable_bg_vinyl.xml.flat",
         "source": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-main-35:/drawable/bg_vinyl.xml"
-    },
-    {
-        "merged": "com.example.dualaudio.app-merged_res-33:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.dualaudio.app-main-35:/xml/data_extraction_rules.xml"
     },
     {
         "merged": "/home/gaurav/.gradle/daemon/9.0-milestone-1/com.example.dualaudio.app-merged_res-33:/layout_layout_dialog_playlist.xml.flat",

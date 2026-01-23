@@ -72,6 +72,7 @@
                 android:layout_marginStart="16dp">
                 
                 <TextView
+                    android:id="@+id/tvLabelSourceA"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Left Earbud Music"
@@ -80,6 +81,7 @@
                     android:textSize="16sp"/>
                 
                 <TextView
+                    android:id="@+id/tvPlayerSourceA"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Player A"
@@ -128,6 +130,7 @@
                 android:layout_marginStart="16dp">
                 
                 <TextView
+                    android:id="@+id/tvLabelSourceB"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Right Earbud Music"
@@ -136,6 +139,7 @@
                     android:textSize="16sp"/>
                 
                 <TextView
+                    android:id="@+id/tvPlayerSourceB"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Player B"

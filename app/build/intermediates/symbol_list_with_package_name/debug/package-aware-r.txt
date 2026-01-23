@@ -3670,12 +3670,16 @@ id tvCurrentPath
 id tvDialogTitle
 id tvDuration
 id tvFolderName
+id tvLabelSourceA
+id tvLabelSourceB
 id tvMiniArtist
 id tvMiniTitle
 id tvPlayerDurationA
 id tvPlayerDurationB
 id tvPlayerSongA
 id tvPlayerSongB
+id tvPlayerSourceA
+id tvPlayerSourceB
 id tvPlaylistTitle
 id tvSwitchTitle
 id tvTitle
